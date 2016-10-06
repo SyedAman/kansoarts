@@ -50,7 +50,7 @@ font-size: 1em;
   height: 60px;
   line-height: 60px;
   text-align: center;
-  color: slategrey;
+  color: #9E9E9E;
   border-radius: 3px;
   background-color: ##fbfbfb;
   margin: 0px  1px 0px  1px;
@@ -59,10 +59,9 @@ font-size: 1em;
 }
 
 .button:hover, .button:active {
-  background-color: #f3f3f4;
-  color: black;
+  color: #757575;
   font-size: .99em;
-  box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*Page background*/
@@ -78,7 +77,7 @@ font-size: 1em;
 
 /*headers*/
 h1 {
-  padding: 200px 100px 50px 100px;
+  padding: 100px 100px 0px 100px;
   font-size: 3em;
   text-align: center;
   color: white;
@@ -91,17 +90,31 @@ h2 {
   color: white;
 }
 
-.content ul {
+.adobeicons {
   display: block;
   margin: auto;
   width: 210px;
   list-style: none;
 
 }
-.content img {
+.adobeicons img {
   width: 50px;
   height: 50px;
   float: left;
   padding: 0 10px 0 10px;
 
+}
+
+.codingicons {
+  display: block;
+  margin: auto;
+  width: 360px;
+  list-style: none;
+}
+
+.codingicons img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 0 10px 0 10px
 }
